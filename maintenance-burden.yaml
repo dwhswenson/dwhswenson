@@ -1,0 +1,27 @@
+openpathsampling/openpathsampling:
+  - tests.yml
+  - check-openmm-rc.yml
+openpathsampling/openpathsampling-cli:
+  - test-suite.yml
+openpathsampling/ops_tutorial:
+  - ci.yml
+openpathsampling/ops_additional_examples:
+  - tests.yml
+dwhswenson/contact_map:
+  - unit-tests.yml
+dwhswenson/autorelease:
+  - unit-tests.yml
+dwhswenson/ops-storage-notebooks:
+  - tests.yml
+dwhswenson/conda-rc-check:
+  - example_use.yml
+dwhswenson/plugcli:
+  - ci.yml
+omsf-eco-infra/ticgithub:
+  - tests.yaml
+# I'm okay with these being inactive, but maybe I'll activate them again
+# someday
+#dwhswenson/ghcontribs:
+  #- tests.yml
+#dwhswenson/fabulous-paths:
+  #- tests.yml
