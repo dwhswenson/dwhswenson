@@ -19,6 +19,8 @@ dwhswenson/plugcli:
   - ci.yml
 omsf-eco-infra/ticgithub:
   - tests.yaml
+omsf/gha-runner:
+  - ci.yaml
 # I'm okay with these being inactive, but maybe I'll activate them again
 # someday
 #dwhswenson/ghcontribs:
